@@ -1,0 +1,71 @@
+button.btn, .btn-primary {
+    background-color: #ec7965 !important;
+    border-color: #ec7965 !important;
+    color: #fff !important;
+}
+
+.accordion.accordion-custom .accordion-button:not(.collapsed), .accordion.accordion-custom .accordion-collapse {
+    background-color: #d7ddff;
+}
+
+.accordion.accordion-custom .accordion-button:not(.collapsed):after {
+    color: #fff;
+}
+header.header-transparent.sticky-fixed.is-fixed .navbar-dark .navbar-fixed-bg {
+    background-color: rgba(13,11,26,.3) !important;
+}
+footer:not(.text-white):not(.text-light) a:not(.btn):not(.dropdown-item):not(.text-muted):hover:not(.active):not(.disabled):not(:disabled) {
+    color: #ec7965 !important
+}
+.position-relative.rounded-4.overflow-hidden img, .position-relative.mb-4.overflow-hidden.card-hover {
+    height: 250px;
+}
+
+.dropdown-item {
+    font-size: .85rem !important;
+}
+
+.navbar .dropdown-menu {
+    min-width: 150px;
+}
+
+.panel-prg p {
+    font-weight: 400;
+    font-family: Source Serif Pro, serif !important;
+    letter-spacing: 0;
+    margin-bottom: 3rem !important;
+    font-size: 1.25rem;
+}
+.collapse-group .nav-link[data-bs-toggle=collapse]:after, .collapse-group [data-bs-toggle=collapse]:after {
+    border: 0;
+    margin-top: 0;
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    transform: translateY(-50%) rotate(180deg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: boxicons!important;
+    font-style: normal;
+    font-weight: 400!important;
+    box-sizing: content-box;
+    font-size: .835rem;
+    transition: all .2s;
+    will-change: transform;
+}
+
+
+@media ( max-width:992px){
+    .logo{
+        width: 110px;
+        height: 110px;
+    }
+    .get-in-touch{
+        font-size: .8rem;
+    }
+}
